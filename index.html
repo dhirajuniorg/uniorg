@@ -2,8 +2,109 @@
 <html>
 <head>
 	<title>UniqOrg</title>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon.ico/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/assets/images/favicon.ico/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/assets/images/favicon.ico/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/assets/images/favicon.ico/manifest.json">
+	<link rel="mask-icon" href="/assets/images/favicon.ico/safari-pinned-tab.svg" color="#12753b">
+	<link rel="shortcut icon" href="/assets/images/favicon.ico/favicon.ico">
+	<meta name="msapplication-config" content="/assets/images/favicon.ico/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<link rel="stylesheet" type="text/css" href="/assets/libs/fullpage.js/jquery.fullPage.css">
+	<link rel="stylesheet" type="text/css" href="/assets/libs/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/assets/libs/bootstrap/dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="/assets/libs/font-awesome/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
 </head>
 <body>
-<h1>Uniqorg</h1>
+
+
+	<nav class="navbar navbar-default navbar-fixed-top" id="menu">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">
+					<img src="/assets/images/logo.png" class="brand-logo">
+				</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Products</a></li>
+					<li><a href="#">Features</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+	<div id="fullpage">
+		<div class="section" >
+			<div class="slide">
+				<div class="container-fluid text-center section slide-1-image white">
+					<h1>UniqOrg</h1>
+					<p>Organic Dyeing at its best</p>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="container-fluid text-center section slide-2-image">
+					
+				</div>
+			</div>
+			<div class="slide">
+				<div class="container-fluid text-center section slide-3-image">
+					
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class="container text-center">
+				<h1>Products</h1>
+			</div>
+		</div>
+		<div class="section">
+			<div class="container text-center">
+				<h1>Features</h1>
+			</div>
+		</div>
+		<div class="section">
+			<div class="container text-center">
+				<h1>About</h1>
+			</div>
+		</div>
+		<div class="section">
+			<div class="container text-center">
+				<h1>Contact</h1>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="/assets/libs/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="/assets/libs/fullpage.js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/assets/libs/sliiide/sliiide.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				controlArrows: true,
+			});
+		});
+	</script>
+	
 </body>
 </html>
