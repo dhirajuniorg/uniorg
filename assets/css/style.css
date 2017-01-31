@@ -1,37 +1,20 @@
-.navbar-default{
-	background-image: none;
-	background-color: transparent;
-	border-color: transparent; 
-}
-
-.navbar-default .navbar-nav>li>a{
-	color: white;
-}
-
-.navbar-default .navbar-toggle{
-	border-color: white;
-}
-
-.navbar-default .navbar-toggle .icon-bar{
-	background-color: white;
-}
 
 .slide-1-image{
-	background-image: url('/assets/images/slide_1_image.jpeg');
+	background-image: url('/assets/images/slide_1_image.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
 
 .slide-2-image{
-	background-image: url('/assets/images/slide_2_image.jpeg');
+	background-image: url('/assets/images/slide_2_image.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
 
 .slide-3-image{
-	background-image: url('/assets/images/slide_3_image.jpeg');
+	background-image: url('/assets/images/slide_3_image.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -40,11 +23,6 @@
 .white{
 	color: #fff;
 }
-
-.brand-logo{
-	width: 5%;
-}
-
 
 .fp-controlArrow.fp-next{
 	border-width: 0px;
@@ -62,7 +40,7 @@
 	font-family: FontAwesome;
 	content: "\f054";
 	font-size: 25px;
-	color: white;
+	color: #5cb85c;
 }
 
 .fp-controlArrow.fp-prev:before{
@@ -70,17 +48,6 @@
 	font-family: FontAwesome;
 	content: "\f053";
 	font-size: 25px;
-	color: white;
+	color: #5cb85c;
 }
 
-@media (max-width: 768px) { 
-	.navbar-brand{
-		float: none;
-		padding: 0px;
-	}
-	.brand-logo{
-		width: 7%;
-		margin-left: 5%;
-		margin-top: 3%
-	}	
-}
